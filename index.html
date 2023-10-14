@@ -6,12 +6,30 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="https://kit.fontawesome.com/2621df78fc.js" crossorigin="anonymous"></script>
-  <title>name of the project</title>
+  <title>Météo</title>
 </head>
 
 <body>
 
-  <h1>Hello World</h1>
+  <h1>Météo</h1>
+
+  <form>
+    <label for="searchCity">Ville:</label>
+    <input type="text" name="text" placeholder="Search for a city" id="searchCity" autocomplete="off">
+    <button id="submit">Submit</button>
+  </form>
+
+  <h2>Country: <span id="country"></span></h2>
+
+  <main>
+
+    <!-- <article class="card">
+      <h2 id="city"></h2>
+      <p>Min : <span id="min"></span></p>
+      <p>Max : <span id="max"></span></p>
+      <h2>Time: <time></time></h2>
+    </article> -->
+  </main>
 
   <script type="module" src="/js/main.js"></script>
 </body>
