@@ -1,13 +1,40 @@
+body {
+  color: $w;
+  background: linear-gradient(to right, #267871, #136a8a);
+}
+
+h1 {
+  margin: 2rem 0;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  input {
+    color: $b;
+    margin: 0 0.5rem;
+    padding: 0.5rem;
+    border-radius: 1rem;
+  }
+
+  button {
+    background-color: $blue;
+  }
+}
+
 main {
   display: flex;
   flex-wrap: wrap;
-  gap: 5rem;
+  gap: 3rem;
 
   .card {
     text-align: center;
     width: fit-content;
     padding: 1rem 2rem;
-    line-height: 2rem;
+    line-height: 1.5rem;
     border: solid 1px;
   }
 }

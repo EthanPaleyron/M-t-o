@@ -18,6 +18,7 @@ const urlCity = (city) => {
                 <time>${newSplice[0]}</time>
                 <p>Min : ${day.main.temp_min}°</p>
                 <p>Max : ${day.main.temp_max}°</p>
+                <img src="http://openweathermap.org/img/wn/${day.weather[0].icon}.png" alt="weather"> 
               </article>`;
           }
         }
